@@ -26,9 +26,11 @@ def CambiarCueva():
 def cheqcueva(CambiarCueva,vivo,dinero):
     print ("\n\nTe acercas a la Cueva...")
     time.sleep(2)
-    print ("Esta oscuro y tenebroso...")
+    print ("Esta oscuro y huele mal...")
     time.sleep(2)
-    print ("Un gran dragon salta delante tuyo, abre su boca y...")
+    print ("Un gran dragon aparece frente a ti...")
+    print("Abre su boca y...")
+    time.sleep(2)
     print ("")
     
     eleccionesvitales = random.randint (1, 2)
@@ -40,7 +42,7 @@ def cheqcueva(CambiarCueva,vivo,dinero):
         
         ganancia=random.randint (500, 2000)
         dinero=dinero+ganancia
-        print("El dragón te da su tesoro.... \nTienes {} $ ahora mismo\n".format(dinero))
+        print("El dragón comparte su tesoro contigo.... \nTienes {} $ ahora mismo\n".format(dinero))
         time.sleep(2)
         print("Has sobrevivido a esta ronda.\n\nContinuemos.\n")
         time.sleep(2)
@@ -51,7 +53,7 @@ def cheqcueva(CambiarCueva,vivo,dinero):
 
     
     else:
-        print ("\nEl dragon te come de un bocado....")
+        print ("\nEl dragón te arranca la cabeza de un mordisco....")
         vivo=5
         print("Vaya,estabas cerca....\n")
         print("\nFIN DEL JUEGO. Pringado!!!\n")

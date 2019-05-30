@@ -23,7 +23,6 @@ def CambiarCueva():
     return cueva
 
 
-
 def cheqcueva(CambiarCueva,vivo,dinero):
     print ("\n\nTe acercas a la Cueva...")
     time.sleep(2)
@@ -58,11 +57,7 @@ def cheqcueva(CambiarCueva,vivo,dinero):
         print("\nFIN DEL JUEGO. Pringado!!!\n")
         return vivo,dinero
         
-        
-   
-
-
-
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++        
     
 nom= ""
 vivo=0
@@ -73,16 +68,10 @@ introduccion(nom)
 
 while result < 3:
 
-	
-
 	NumCaverna = CambiarCueva()
-
-
 	result,diner=cheqcueva(NumCaverna,vivo,dinero)
 	vivo=result
 	dinero=diner
-
-	
 
     
 if result ==3:
